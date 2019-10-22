@@ -1,0 +1,20 @@
+{
+  "name": "gundb",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:eksant/gundb.git",
+  "author": "eksant <eksant@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gun": "^0.2019.915"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
